@@ -1,0 +1,37 @@
+/*Hoja de estilos*/
+
+*{
+	font-family: arial; /*todos los tipos de letra son arial*/
+}
+
+body{
+	padding:0;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.header{   /*Estilo del header*/
+	background:#111;
+	color:#fff;
+	padding:30px;
+	text-align: center;
+	font-size:30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/*Estilos para mostra productos*/
+.producto{
+	width: 25%;
+	padding: 10px;
+	background: rgba(0,0,0,0.05);/*Opaces de la imagen*/
+	color:#444;/*Color letra*/
+}
+/*Estilo imagen de producto*/
+.img_producto{
+	border-radius: 1000px;	 	 
+
+}
